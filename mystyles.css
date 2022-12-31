@@ -1,0 +1,246 @@
+form p{
+width:100%;
+height:40px;
+font-size:1.35em;
+font-family:monospace;
+font-weight:bold;
+background-color:teal;
+border-radius:1px;
+text-align:center;
+text-shadow:1.2px 1.2px maroon;
+color:white;
+}
+
+body{
+background-color:rgba(255,0,0,0.1);
+
+}
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+
+}
+form{
+border:1px solid lightblue;
+margin:5%;
+text-align:center;
+}
+input[type=text],input[type=date],input[type=password]{
+width:80%;
+padding:6px;
+border:1px groove brown;
+}
+label{
+font-family:cursive;
+font-weight:bold;
+color:red;
+}
+input[type=password]:focus{
+border:1px inset pink;
+border-top:none;
+border-left:none;
+border-right:none;
+outline:none;
+border-radius:0px;
+}
+input[type=text]:focus{
+border:1px inset aqua;
+border-top:none;
+border-left:none;
+border-right:none;
+outline:none;
+border-radius:0px;
+}
+input[type=date]:focus{
+border:1px inset green;
+border-top:none;
+border-left:none;
+border-right:none;
+outline:none;
+border-radius:0px;
+}
+.love ol{
+//border:1px groove grey;
+//border-radius:4px;
+margin:20%;
+list-style-type:none;
+}
+.love ol li{
+
+float:left;
+font-size:22px;
+padding:5px;
+font-weight:bold;
+border:1px inset tomato;
+border-radius:10%;
+font-family:monospace;
+}
+
+
+#nav ol{
+list-style-type:none;
+margin: 50%;
+margin-top:0%;
+
+}
+#nav ol li{
+float:left;
+font-size:22px;
+font-family:cursive;
+padding:5px;
+font-weight:bold;
+border:1px groove teal;
+border-radius:10%;
+
+}
+#nav ol li:nth-child(1){
+color:red;
+animation:colors 5s infinite;
+}
+@keyframes colors{
+
+0%{color:green;}
+50%{color:blue;}
+100%{color:orange;}
+}
+li:nth-child(2){
+color:green;
+animation:cl1 5s infinite linear;
+}
+@keyframes cl1{
+
+0%{color:grey;}
+50%{color:pink;}
+100%{color:purple;}
+}
+li:nth-child(3){
+color:black;
+animation:cl3 5s infinite linear;
+}
+@keyframes cl3{
+
+0%{color:purple;}
+50%{color:blue;}
+100%{color:tomato;}
+}
+li:nth-child(4){
+
+animation:cls 5s infinite linear;
+}
+@keyframes cls{
+
+0%{color:teal;}
+50%{color:aqua;}
+100%{color:blue;}
+}
+li:nth-child(5){
+
+animation:cl5 5s infinite linear;
+}
+@keyframes cl5{
+
+0%{color:purple;}
+50%{color:magenta;}
+100%{color:green;}
+}
+li:nth-child(6){
+
+animation:cl6 5s infinite linear;
+}
+@keyframes cl6{
+
+0%{color:yellow;}
+50%{color:maroon;}
+100%{color:indigo;}
+}
+li:nth-child(7){
+
+animation:cl7 5s infinite linear;
+}
+@keyframes cl7{
+
+0%{color:violet;}
+50%{color:lightblue;}
+100%{color:brown;}
+}
+li:nth-child(8){
+
+animation:cl8 5s infinite linear;
+}
+@keyframes cl8{
+
+0%{color:tomato;}
+50%{color:green;}
+100%{color:yellow;}
+}
+li:nth-child(9){
+
+animation:cl9 5s infinite linear;
+}
+@keyframes cl9{
+
+0%{color:orange;}
+50%{color:pink;}
+100%{color:red;}
+}
+li:nth-child(10){
+
+animation:cl10 5s infinite linear;
+}
+@keyframes cl10{
+
+0%{color:red;}
+50%{color:indigo;}
+100%{color:green;}
+}
+li:nth-child(11){
+
+animation:cl11 5s infinite linear;
+}
+@keyframes cl11{
+
+0%{color:grey;}
+50%{color:purple;}
+100%{color:brown;}
+}
+li:nth-child(12){
+
+animation:cl12 5s infinite linear;
+}
+@keyframes cl12{
+
+0%{color:pink;}
+50%{color:teal;}
+100%{color:lightblue;}
+}
+li:nth-child(13){
+
+animation:cl13 5s infinite linear;
+}
+@keyframes cl13{
+
+0%{color:tomato;}
+50%{color:red;}
+100%{color:grey;}
+}
+li:nth-child(14){
+
+animation:cl14 5s infinite linear;
+}
+@keyframes cl14{
+
+0%{color:green;}
+50%{color:pink;}
+100%{color:teal;}
+}
+li:nth-child(15){
+
+animation:cl15 5s infinite linear;
+}
+@keyframes cl15{
+
+0%{color:purple;}
+50%{color:green;}
+100%{color:aqua;}
+}
